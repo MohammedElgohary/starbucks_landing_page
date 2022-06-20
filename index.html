@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/img/logo.png" />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="brand-and-theming">
+        <img src="/assets/img/logo.png" alt="logo" />
+
+        <div class="theming">
+          <div
+            class="theme-color"
+            data-color="#017143"
+            style="--i: #017143"
+          ></div>
+          <div
+            class="theme-color"
+            data-color="#eb7495"
+            style="--i: #eb7495"
+          ></div>
+          <div
+            class="theme-color"
+            data-color="#d752b1"
+            style="--i: #d752b1"
+          ></div>
+        </div>
+      </div>
+
+      <ul>
+        <li><a href="#Home" class="active">Home</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#WhatsNew">What's New</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+
+      <div class="navbar-toggler">
+        <span class="bar">&nbsp;</span>
+        <span class="bar">&nbsp;</span>
+        <span class="bar">&nbsp;</span>
+      </div>
+    </nav>
+
+    <main>
+      <div id="Home">
+        <div class="content">
+          <h1>
+            It's not just a coffee <br />
+            It's <span class="main-text">Starbucks</span>
+          </h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            quidem at inventore similique sit odit, ratione sapiente, quaerat
+            deserunt ipsam sed adipisci pariatur illum exercitationem tenetur
+            porro rerum quasi iste. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. At doloribus quae, sed quaerat quis tempore
+            perferendis sit illo aperiam maiores, suscipit fuga enim atque
+            magnam error possimus? Voluptatum, reiciendis ducimus? lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Dolores
+          </p>
+
+          <div class="learn-more">
+            <a class="main-btn">Learn More</a>
+          </div>
+        </div>
+
+        <div class="img-box" id="img-box">
+          <img src="/assets/img/img1.png" alt="coffee" />
+
+          <div class="circle"></div>
+          <div class="circle-fixed"></div>
+
+          <div class="social">
+            <a href="#">
+              <img src="/assets/img/facebook.png" alt="facebook" />
+            </a>
+
+            <a href="#">
+              <img src="/assets/img/instagram.png" alt="instagram" />
+            </a>
+
+            <a href="#">
+              <img src="/assets/img/twitter.png" alt="twitter" />
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="social">
+          <a href="#">
+            <img src="/assets/img/facebook.png" alt="facebook" />
+          </a>
+
+          <a href="#">
+            <img src="/assets/img/instagram.png" alt="instagram" />
+          </a>
+
+          <a href="#">
+            <img src="/assets/img/twitter.png" alt="twitter" />
+          </a>
+        </div> -->
+
+        <div class="thumb-imgs">
+          <img
+            src="/assets/img/thumb1.png"
+            alt="coffee"
+            data-src="/assets/img/img1.png"
+            data-color="#017143"
+          />
+          <img
+            src="/assets/img/thumb2.png"
+            alt="coffee"
+            data-src="/assets/img/img2.png"
+            data-color="#eb7495"
+          />
+          <img
+            src="/assets/img/thumb3.png"
+            alt="coffee"
+            data-src="/assets/img/img3.png"
+            data-color="#d752b1"
+          />
+        </div>
+      </div>
+
+      <div id="Menu">
+        <h1>Menu</h1>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+
+            <div class="swiper-slide">
+              <div class="menu-card">
+                <div class="menu-img">
+                  <img src="/assets/img/img1.png" alt="coffee" />
+                </div>
+                <div class="details">
+                  <h2>Coffee</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores quidem at inventore similique sit odit, ratione
+                    sapiente, quaerat deserunt ipsam sed adipisci pariatur illum
+                    exercitationem tenetur porro rerum quasi iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="menu-card">
+                <div class="menu-img">
+                  <img src="/assets/img/img2.png" alt="coffee" />
+                </div>
+                <div class="details">
+                  <h2>Coffee</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores quidem at inventore similique sit odit, ratione
+                    sapiente, quaerat deserunt ipsam sed adipisci pariatur illum
+                    exercitationem tenetur porro rerum quasi iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="menu-card">
+                <div class="menu-img">
+                  <img src="/assets/img/img3.png" alt="coffee" />
+                </div>
+                <div class="details">
+                  <h2>Coffee</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores quidem at inventore similique sit odit, ratione
+                    sapiente, quaerat deserunt ipsam sed adipisci pariatur illum
+                    exercitationem tenetur porro rerum quasi iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </div>
+
+      <div id="WhatsNew">
+        <h1>What's New</h1>
+
+        <div class="whats-new-content">
+          <ul>
+            <li class="first">Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+
+          <ul>
+            <li class="first">Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+
+          <ul>
+            <li class="first">Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="Contact">
+        <h1>Contact</h1>
+
+        <div class="contact-content">
+          <div class="img-contact"></div>
+          <div class="contact-form">
+            <div class="contact-row">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="contact-row">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="contact-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                placeholder="Enter your message"
+                rows="11"
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn-send">Send</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      All rights reserved.
+    </footer>
+
+    <div id="styler"></div>
+
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

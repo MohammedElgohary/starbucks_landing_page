@@ -1,5 +1,4 @@
-# Starbucks Landing Page
-See the project [`here`](https://mohammedelgohary.github.io/starbucks_landing_page/)
+# [`Starbucks Landing Page`](https://mohammedelgohary.github.io/starbucks_landing_page/)
 
 
 ## Testing project with: 

@@ -1,6 +1,6 @@
 :root {
   --color-primary: hsl(155, 98%, 22%);
-  --color-gray: hsl(0, 0%, 20%);
+  --color-gray: hsl(0, 0%, 47%);
   --odd-sections-bg: hsl(0, 0%, 87%);
   --even-sections-bg: hsl(0, 0%, 93%);
   --shadow-color: hsla(0, 0%, 0%, 0.467);
@@ -93,6 +93,7 @@ body::-webkit-scrollbar {
   height: 5px;
   background: var(--color-gray);
   transition: var(--main-transition);
+  border-radius: 7px;
 }
 
 .main-nav ul li {
@@ -481,24 +482,30 @@ body::-webkit-scrollbar {
     position: relative;
   }
 
-  .main-nav ul.open + .navbar-toggler .bar:nth-child(1) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: rotate(45deg);
-    background-color: var(--color-primary);
+  .main-nav ul.open + .navbar-toggler .bar {
+    transition: var(--main-transition);
   }
 
-  .main-nav ul.open + .navbar-toggler .bar:nth-child(2) {
-    display: none;
+  .main-nav ul.open + .navbar-toggler .bar:nth-child(1),
+  .main-nav ul.open + .navbar-toggler .bar:nth-child(2),
+  .main-nav ul.open + .navbar-toggler .bar:nth-child(3) {
+    position: absolute;
+    top: var(--half-spacing);
+    left: 0;
+    background-color: var(--color-primary);
+    height: 2.5px;
+  }
+
+  .main-nav ul.open + .navbar-toggler .bar:nth-child(1) {
+    transform: rotate(45deg) scale(1.5);
   }
 
   .main-nav ul.open + .navbar-toggler .bar:nth-child(3) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: rotate(-45deg);
-    background-color: var(--color-primary);
+    transform: rotate(-45deg) scale(1.5);
+  }
+
+  .main-nav ul.open + .navbar-toggler .bar:nth-child(2) {
+    transform: translateX(400%) scale(1.5);
   }
 
   .main-nav ul {

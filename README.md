@@ -1,6 +1,9 @@
 # Starbucks Landing Page
-See it [here](https://mohammedelgohary.github.io/starbucks_landing_page/)
+See the project here [here](https://mohammedelgohary.github.io/starbucks_landing_page/)
 
 ```
- Testing project
+ Testing project with: 
+ * HTML5
+ * CSS3
+ * Javascript
 ```

@@ -1,4 +1,6 @@
-# [`Starbucks Landing Page`](https://mohammedelgohary.github.io/starbucks_landing_page/)
+# Starbucks Landing Page
+
+## [`See Live`](https://mohammedelgohary.github.io/starbucks_landing_page/)
 
 
 ## Testing project with: 

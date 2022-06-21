@@ -3,7 +3,7 @@
 ## [`See Live`](https://mohammedelgohary.github.io/starbucks_landing_page/)
 
 
-## Testing project with: 
+## Made with: 
  * HTML5
  * CSS3
  * Javascript *`es6`*

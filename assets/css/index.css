@@ -489,23 +489,19 @@ body::-webkit-scrollbar {
   .main-nav ul.open + .navbar-toggler .bar:nth-child(1),
   .main-nav ul.open + .navbar-toggler .bar:nth-child(2),
   .main-nav ul.open + .navbar-toggler .bar:nth-child(3) {
-    position: absolute;
-    top: var(--half-spacing);
-    left: 0;
     background-color: var(--color-primary);
-    height: 2.5px;
   }
 
   .main-nav ul.open + .navbar-toggler .bar:nth-child(1) {
-    transform: rotate(45deg) scale(1.5);
+    transform: rotate(45deg) translate(10px, 10px);
   }
 
   .main-nav ul.open + .navbar-toggler .bar:nth-child(3) {
-    transform: rotate(-45deg) scale(1.5);
+    transform: rotate(-45deg) translate(10px, -10px);
   }
 
   .main-nav ul.open + .navbar-toggler .bar:nth-child(2) {
-    transform: translateX(400%) scale(1.5);
+    transform: translateX(400%);
   }
 
   .main-nav ul {
